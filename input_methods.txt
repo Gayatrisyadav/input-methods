@@ -1,0 +1,26 @@
+
+INPUT METHODS
+
+(1)Hardware Events:
+-Compatibility: 100%
+-In Hardware Events the activate needs to be always true so that the target window comes into the focus...because activate is used to make the target window focused.
+Even though there are no visible background processes running there are some "background processes" in the background so the bot pays attention to those.
+-Hardware Events speed is medium and by default they do not clear the empty.
+-If neither of the checkboxes are selcetd then by default this is selected.
+-Hotkey support provided.
+-Auto empty is disabled.
+
+(2)Window Messages:
+-Compatibility: 80%
+-There is no need to keep the activate true..by default it brings the process to the foreground
+-It too has same speed as that of Hardware.
+-hotkey support provided.
+-Auto empty is disabled
+
+(3)Simulate:
+-Compatibility: 99% - web apps
+                60% - desktop apps
+-It is the fastest among all three.
+-The only disadvantage it has is it does not provide support for Hot keys.
+-The special thing about this is that the auto empty is on...there is no need to check that box separately.
+
